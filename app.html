@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!--[if IE 9]><html lang="en-US" class="lt-ie9 ie9" {{ HTML_ATTRS }}><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--><html {{ HTML_ATTRS }}><!--<![endif]-->
+  <head>
+    <title>CEQ Data Center</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta property="og:title" content="CEQ Data Center"/>
+    <meta property="og:image" content="/images/share-img.png">
+    <meta property="og:description" content="CEQ Data Center">
+    <link href="/images/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link rel="stylesheet" href="/css/print.css" media="print">
+    {{ HEAD }}
+  </head>
+  <body {{ BODY_ATTRS }}>
+    {{ APP }}
+    <div></div>
+
+    <!-- /paris21/ -->
+    
+    <script src="/highcharts.js" language="javascript"></script>
+    <script src="/highmaps-modulemap.js" language="javascript"></script>
+    <script src="/highmaps-worldjson.js" language="javascript"></script>
+    <script src="/d3.v4.min.js" language="javascript"></script>
+    <script src="/jspdf.debug.js" language="javascript"></script>
+    <script src="/dmsans-regular-webfont-normal.js" language="javascript"></script>
+    <script src="/dmsans-bold-webfont-normal.js" language="javascript"></script>
+    
+    <!--[if gt IE 9]-->
+    <script type="text/javascript" src="/shim.min.js"></script><script type="text/vbscript" language="vbscript">
+    IE_GetProfileAndPath_Key = "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders\"
+    Function IE_GetProfileAndPath(key): Set wshell = CreateObject("WScript.Shell"): IE_GetProfileAndPath = wshell.RegRead(IE_GetProfileAndPath_Key & key): IE_GetProfileAndPath = wshell.ExpandEnvironmentStrings("%USERPROFILE%") & "!" & IE_GetProfileAndPath: End Function
+    Function IE_SaveFile_Impl(FileName, payload): Dim data, plen, i, bit: data = CStr(payload): plen = Len(data): Set fso = CreateObject("Scripting.FileSystemObject"): fso.CreateTextFile FileName, True: Set f = fso.GetFile(FileName): Set stream = f.OpenAsTextStream(2, 0): For i = 1 To plen Step 3: bit = Mid(data, i, 2): stream.write Chr(CLng("&h" & bit)): Next: stream.Close: IE_SaveFile_Impl = True: End Function
+    </script><script type="text/vbscript" language="vbscript">
+    Function IE_LoadFile_Impl(FileName): Dim out(), plen, i, cc: Set fso = CreateObject("Scripting.FileSystemObject"): Set f = fso.GetFile(FileName): Set stream = f.OpenAsTextStream(1, 0): plen = f.Size: ReDim out(plen): For i = 1 To plen Step 1: cc = Hex(Asc(stream.read(1))): If Len(cc) < 2 Then: cc = "0" & cc: End If: out(i) = cc: Next: IE_LoadFile_Impl = Join(out,""): End Function
+    </script>
+    <script type="text/javascript" src="/xlsx.full.min.js"></script>
+    <!--[endif]-->
+    <!--[if lte IE 9]>
+    <script type="text/javascript" src="/shim.min.js"></script>
+    <script type="text/javascript" src="/xlsx.full.min.js"></script>
+    <![endif]-->
+
+    <script language="javascript">
+      function generateXLS(tableArray){
+        console.log("generateXLS", tableArray);
+        /* original data */
+        var filename = "data.xlsx";
+        var data = tableArray;
+        var ws_name = "data";
+         
+        if(typeof console !== 'undefined') console.log(new Date());
+        var wb = XLSX.utils.book_new(), ws = XLSX.utils.aoa_to_sheet(data);
+         
+        /* add worksheet to workbook */
+        XLSX.utils.book_append_sheet(wb, ws, ws_name);
+
+        /* write workbook */
+        if(typeof console !== 'undefined') console.log(new Date());
+        XLSX.writeFile(wb, filename);
+        if(typeof console !== 'undefined') console.log(new Date());
+      }
+    </script>
+    
+    </body>
+</html>

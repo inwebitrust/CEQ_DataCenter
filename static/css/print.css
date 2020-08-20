@@ -1,0 +1,230 @@
+@font-face {
+    font-family: 'dm_sansbold';
+    src: url('/fonts/dmsans-bold-webfont.woff2') format('woff2'),
+         url('/fonts/dmsans-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'dm_sansbold_italic';
+    src: url('/fonts/dmsans-bolditalic-webfont.woff2') format('woff2'),
+         url('/fonts/dmsans-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'dm_sansitalic';
+    src: url('/fonts/dmsans-italic-webfont.woff2') format('woff2'),
+         url('/fonts/dmsans-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'dm_sansregular';
+    src: url('/fonts/dmsans-regular-webfont.woff2') format('woff2'),
+         url('/fonts/dmsans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@media print {
+	*{
+		font-family: "dm_sansbold";
+		color: #1B1B1B;
+	}
+
+	.export_page{
+		padding: 20px;
+	}
+
+	.export_logo{
+		border:0px solid;
+		position: relative;
+	}
+	.export_logo:before{
+		content:"";
+		position: absolute;
+		left: 0px;
+		top: -10px;
+		height: 12px;
+		background: #fff;
+		width: 100%;
+	}
+
+    .export_content{
+        margin-top: 20px;
+    }
+
+	.export_arian{
+		font-size: 16px;
+		line-height: 20px;
+	}
+
+	.export_title{
+		font-size: 28px;
+		line-height: 30px;
+		font-family: "dm_sansbold";
+	}
+
+	.export_subtitle{
+		font-size: 14px;
+		line-height: 18px;
+	}
+
+	#GiniText{
+		background: pink;
+		color: #FF0000;
+	}
+	.country_chartblock_dlblock{
+		display: none;
+	}
+
+	.barchart_tooltip{
+		display: none;
+	}
+
+    #Wrapper_ComparisonBarchart{
+        position: relative;
+        margin-top: 20px;
+    }
+
+    #Wrapper_ComparisonBarchart .highcharts-container {
+        width: 700px !important;
+    }
+
+    #Wrapper_ComparisonBarchart .highcharts-container svg{
+        width: 100% !important;
+    }
+
+    #ComparisonBarchart{
+        padding-top: 20px;
+    }
+
+    #Wrapper_ComparisonBarchart .barchart_tooltip.displayed{
+        display: block;
+    }
+
+    .barchart_tooltip{
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        background: #FF613C;
+        font-family: "dm_sansbold";
+        font-size: 12px;
+        height: 24px;
+        line-height: 24px;
+        border-radius: 20px;
+        padding: 0 10px;
+        z-index: 1000;
+        display: none;
+    }
+
+    .barchart_tooltip .tooltip_country, .barchart_tooltip .tooltip_rank, .barchart_tooltip .tooltip_value, .barchart_tooltip .tooltip_xcategory{
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .barchart_tooltip .tooltip_xcategory{
+        margin-left: 4px;
+    }
+    .barchart_tooltip .tooltip_rank{
+        margin-left: 4px;
+        position: relative;
+        top: -4px;
+    }
+    .barchart_tooltip .tooltip_value{
+        margin-left: 4px;
+    }
+
+	.timeseriesbubbles_wrapper{
+		position: relative;
+		margin-top: 10px;
+		padding-top: 10px;
+	}
+
+	.timeseriesbubbles_countryfocus{
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        z-index: 1000;
+        background: #FF613C;
+        color: #1B1B1B;
+        font-family: "dm_sansbold";
+        font-size: 12px;
+        height: 24px;
+        padding: 0 10px;
+        line-height: 24px;
+        border-radius: 10px;
+    }
+
+    .timeseriesbubbles_wrapper .highcharts-container {
+    	width: 700px !important;
+    }
+
+    .timeseriesbubbles_wrapper .highcharts-container svg{
+    	width: 100% !important;
+    }
+
+    .countryfocus_name, .countryfocus_ranking, .countryfocus_value{
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .countryfocus_ranking{
+        margin-left: 4px;
+        line-height: 24px;
+        height: 100%;
+        position: relative;
+        top: -4px;
+    }
+
+    .countryfocus_value{
+        margin-left: 4px;
+    }
+
+    .timeseries_wrapper{
+        position: relative;
+        margin-top: 10px;
+        padding-top: 10px;
+        width: 400px;
+    }
+
+    .timeseries_tooltip{
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        background: #FF613C;
+        font-family: "dm_sansbold";
+        font-size: 12px;
+        height: 24px;
+        line-height: 24px;
+        border-radius: 20px;
+        padding: 0 10px;
+        z-index: 1000;
+        display: none;
+    }
+    .timeseries_tooltip.displayed{
+        display: block;
+    }
+    .timeseries_tooltip .tooltip_country, .timeseries_tooltip .tooltip_rank, .timeseries_tooltip .tooltip_value, .timeseries_tooltip .tooltip_xcategory{
+        display: inline-block;
+        vertical-align: top;
+    }
+    .timeseries_tooltip .tooltip_xcategory{
+        margin-left: 4px;
+    }
+    .timeseries_tooltip .tooltip_rank{
+        margin-left: 4px;
+    }
+    .timeseries_tooltip .tooltip_value{
+        margin-left: 4px;
+    }
+
+    .highcharts-markers path[data-bordered="true"]{
+        stroke-width:2px;
+        stroke: #000;
+    }
+}

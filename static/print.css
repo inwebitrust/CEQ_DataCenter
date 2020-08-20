@@ -1,0 +1,35 @@
+@media print {
+	#GiniText{
+		background: pink;
+		color: #FF0000;
+	}
+
+	#bodySite[data-size="A4"] {
+        size: A4;
+        min-height: 0;
+        padding: 0;
+        margin: 0 auto;
+        background-color: white;
+    }
+
+    #bodySite[data-layout="landscape"] {
+        overflow: hidden;
+    }
+    #bodySite[data-layout="landscape"] .main-content {
+        max-width: 257mm;
+    }
+    #bodySite[data-layout="landscape"] .page {
+	    width: 297mm;
+	    height: 210mm;
+	}
+
+
+    #bodySite[data-layout="portrait"] {
+        width: 210mm;
+        height: 297mm;
+    }
+    #bodySite[data-layout="portrait"] .page {
+        width: 210mm;
+        height: 297mm;
+    }
+}

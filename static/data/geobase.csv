@@ -1,0 +1,254 @@
+iso;name;subregion;region;intermediate_name;global_code;global_name;region_code;subregion_code;intermediate_region_code;M49_code;LDC;LLDC;SIDS;developed
+DZA;Algeria;Northern Africa;Africa;;1;World;2;15;;12;;;;Developing
+EGY;Egypt;Northern Africa;Africa;;1;World;2;15;;818;;;;Developing
+LBY;Libya;Northern Africa;Africa;;1;World;2;15;;434;;;;Developing
+MAR;Morocco;Northern Africa;Africa;;1;World;2;15;;504;;;;Developing
+SDN;Sudan;Northern Africa;Africa;;1;World;2;15;;729;x;;;Developing
+TUN;Tunisia;Northern Africa;Africa;;1;World;2;15;;788;;;;Developing
+ESH;Western Sahara;Northern Africa;Africa;;1;World;2;15;;732;;;;Developing
+AGO;Angola;Sub-Saharan Africa;Africa;Middle Africa;1;World;2;202;17;24;x;;;Developing
+BEN;Benin;Sub-Saharan Africa;Africa;Western Africa;1;World;2;202;11;204;x;;;Developing
+BWA;Botswana;Sub-Saharan Africa;Africa;Southern Africa;1;World;2;202;18;72;;x;;Developing
+IOT;British Indian Ocean Territory;Sub-Saharan Africa;Africa;Eastern Africa;1;World;2;202;14;86;;;;Developing
+BFA;Burkina Faso;Sub-Saharan Africa;Africa;Western Africa;1;World;2;202;11;854;x;x;;Developing
+BDI;Burundi;Sub-Saharan Africa;Africa;Eastern Africa;1;World;2;202;14;108;x;x;;Developing
+CPV;Cabo Verde;Sub-Saharan Africa;Africa;Western Africa;1;World;2;202;11;132;;;x;Developing
+CMR;Cameroon;Sub-Saharan Africa;Africa;Middle Africa;1;World;2;202;17;120;;;;Developing
+CAF;Central African Republic;Sub-Saharan Africa;Africa;Middle Africa;1;World;2;202;17;140;x;x;;Developing
+TCD;Chad;Sub-Saharan Africa;Africa;Middle Africa;1;World;2;202;17;148;x;x;;Developing
+COM;Comoros;Sub-Saharan Africa;Africa;Eastern Africa;1;World;2;202;14;174;x;;x;Developing
+COG;Congo;Sub-Saharan Africa;Africa;Middle Africa;1;World;2;202;17;178;;;;Developing
+CIV;Côte d’Ivoire;Sub-Saharan Africa;Africa;Western Africa;1;World;2;202;11;384;;;;Developing
+COD;Democratic Republic of the Congo;Sub-Saharan Africa;Africa;Middle Africa;1;World;2;202;17;180;x;;;Developing
+DJI;Djibouti;Sub-Saharan Africa;Africa;Eastern Africa;1;World;2;202;14;262;x;;;Developing
+GNQ;Equatorial Guinea;Sub-Saharan Africa;Africa;Middle Africa;1;World;2;202;17;226;;;;Developing
+ERI;Eritrea;Sub-Saharan Africa;Africa;Eastern Africa;1;World;2;202;14;232;x;;;Developing
+SWZ;Eswatini;Sub-Saharan Africa;Africa;Southern Africa;1;World;2;202;18;748;;x;;Developing
+ETH;Ethiopia;Sub-Saharan Africa;Africa;Eastern Africa;1;World;2;202;14;231;x;x;;Developing
+ATF;French Southern Territories;Sub-Saharan Africa;Africa;Eastern Africa;1;World;2;202;14;260;;;;Developing
+GAB;Gabon;Sub-Saharan Africa;Africa;Middle Africa;1;World;2;202;17;266;;;;Developing
+GMB;Gambia;Sub-Saharan Africa;Africa;Western Africa;1;World;2;202;11;270;x;;;Developing
+GHA;Ghana;Sub-Saharan Africa;Africa;Western Africa;1;World;2;202;11;288;;;;Developing
+GIN;Guinea;Sub-Saharan Africa;Africa;Western Africa;1;World;2;202;11;324;x;;;Developing
+GNB;Guinea-Bissau;Sub-Saharan Africa;Africa;Western Africa;1;World;2;202;11;624;x;;x;Developing
+KEN;Kenya;Sub-Saharan Africa;Africa;Eastern Africa;1;World;2;202;14;404;;;;Developing
+LSO;Lesotho;Sub-Saharan Africa;Africa;Southern Africa;1;World;2;202;18;426;x;x;;Developing
+LBR;Liberia;Sub-Saharan Africa;Africa;Western Africa;1;World;2;202;11;430;x;;;Developing
+MDG;Madagascar;Sub-Saharan Africa;Africa;Eastern Africa;1;World;2;202;14;450;x;;;Developing
+MWI;Malawi;Sub-Saharan Africa;Africa;Eastern Africa;1;World;2;202;14;454;x;x;;Developing
+MLI;Mali;Sub-Saharan Africa;Africa;Western Africa;1;World;2;202;11;466;x;x;;Developing
+MRT;Mauritania;Sub-Saharan Africa;Africa;Western Africa;1;World;2;202;11;478;x;;;Developing
+MUS;Mauritius;Sub-Saharan Africa;Africa;Eastern Africa;1;World;2;202;14;480;;;x;Developing
+MYT;Mayotte;Sub-Saharan Africa;Africa;Eastern Africa;1;World;2;202;14;175;;;;Developing
+MOZ;Mozambique;Sub-Saharan Africa;Africa;Eastern Africa;1;World;2;202;14;508;x;;;Developing
+NAM;Namibia;Sub-Saharan Africa;Africa;Southern Africa;1;World;2;202;18;516;;;;Developing
+NER;Niger;Sub-Saharan Africa;Africa;Western Africa;1;World;2;202;11;562;x;x;;Developing
+NGA;Nigeria;Sub-Saharan Africa;Africa;Western Africa;1;World;2;202;11;566;;;;Developing
+REU;Réunion;Sub-Saharan Africa;Africa;Eastern Africa;1;World;2;202;14;638;;;;Developing
+RWA;Rwanda;Sub-Saharan Africa;Africa;Eastern Africa;1;World;2;202;14;646;x;x;;Developing
+SHN;Saint Helena;Sub-Saharan Africa;Africa;Western Africa;1;World;2;202;11;654;;;;Developing
+STP;Sao Tome and Principe;Sub-Saharan Africa;Africa;Middle Africa;1;World;2;202;17;678;x;;x;Developing
+SEN;Senegal;Sub-Saharan Africa;Africa;Western Africa;1;World;2;202;11;686;x;;;Developing
+SYC;Seychelles;Sub-Saharan Africa;Africa;Eastern Africa;1;World;2;202;14;690;;;x;Developing
+SLE;Sierra Leone;Sub-Saharan Africa;Africa;Western Africa;1;World;2;202;11;694;x;;;Developing
+SOM;Somalia;Sub-Saharan Africa;Africa;Eastern Africa;1;World;2;202;14;706;x;;;Developing
+ZAF;South Africa;Sub-Saharan Africa;Africa;Southern Africa;1;World;2;202;18;710;;;;Developing
+SSD;South Sudan;Sub-Saharan Africa;Africa;Eastern Africa;1;World;2;202;14;728;x;x;;Developing
+TGO;Togo;Sub-Saharan Africa;Africa;Western Africa;1;World;2;202;11;768;x;;;Developing
+UGA;Uganda;Sub-Saharan Africa;Africa;Eastern Africa;1;World;2;202;14;800;x;x;;Developing
+TZA;United Republic of Tanzania;Sub-Saharan Africa;Africa;Eastern Africa;1;World;2;202;14;834;x;;;Developing
+ZMB;Zambia;Sub-Saharan Africa;Africa;Eastern Africa;1;World;2;202;14;894;x;x;;Developing
+ZWE;Zimbabwe;Sub-Saharan Africa;Africa;Eastern Africa;1;World;2;202;14;716;;x;;Developing
+AIA;Anguilla;Latin America and the Caribbean;Americas;Caribbean;1;World;19;419;29;660;;;x;Developing
+ATG;Antigua and Barbuda;Latin America and the Caribbean;Americas;Caribbean;1;World;19;419;29;28;;;x;Developing
+ARG;Argentina;Latin America and the Caribbean;Americas;South America;1;World;19;419;5;32;;;;Developing
+ABW;Aruba;Latin America and the Caribbean;Americas;Caribbean;1;World;19;419;29;533;;;x;Developing
+BHS;Bahamas;Latin America and the Caribbean;Americas;Caribbean;1;World;19;419;29;44;;;x;Developing
+BRB;Barbados;Latin America and the Caribbean;Americas;Caribbean;1;World;19;419;29;52;;;x;Developing
+BLZ;Belize;Latin America and the Caribbean;Americas;Central America;1;World;19;419;13;84;;;x;Developing
+BOL;Bolivia (Plurinational State of);Latin America and the Caribbean;Americas;South America;1;World;19;419;5;68;;x;;Developing
+BES;Bonaire, Sint Eustatius and Saba;Latin America and the Caribbean;Americas;Caribbean;1;World;19;419;29;535;;;x;Developing
+BVT;Bouvet Island;Latin America and the Caribbean;Americas;South America;1;World;19;419;5;74;;;;Developing
+BRA;Brazil;Latin America and the Caribbean;Americas;South America;1;World;19;419;5;76;;;;Developing
+VGB;British Virgin Islands;Latin America and the Caribbean;Americas;Caribbean;1;World;19;419;29;92;;;x;Developing
+CYM;Cayman Islands;Latin America and the Caribbean;Americas;Caribbean;1;World;19;419;29;136;;;;Developing
+CHL;Chile;Latin America and the Caribbean;Americas;South America;1;World;19;419;5;152;;;;Developing
+COL;Colombia;Latin America and the Caribbean;Americas;South America;1;World;19;419;5;170;;;;Developing
+CRI;Costa Rica;Latin America and the Caribbean;Americas;Central America;1;World;19;419;13;188;;;;Developing
+CUB;Cuba;Latin America and the Caribbean;Americas;Caribbean;1;World;19;419;29;192;;;x;Developing
+CUW;Curaçao;Latin America and the Caribbean;Americas;Caribbean;1;World;19;419;29;531;;;x;Developing
+DMA;Dominica;Latin America and the Caribbean;Americas;Caribbean;1;World;19;419;29;212;;;x;Developing
+DOM;Dominican Republic;Latin America and the Caribbean;Americas;Caribbean;1;World;19;419;29;214;;;x;Developing
+ECU;Ecuador;Latin America and the Caribbean;Americas;South America;1;World;19;419;5;218;;;;Developing
+SLV;El Salvador;Latin America and the Caribbean;Americas;Central America;1;World;19;419;13;222;;;;Developing
+FLK;Falkland Islands (Malvinas);Latin America and the Caribbean;Americas;South America;1;World;19;419;5;238;;;;Developing
+GUF;French Guiana;Latin America and the Caribbean;Americas;South America;1;World;19;419;5;254;;;;Developing
+GRD;Grenada;Latin America and the Caribbean;Americas;Caribbean;1;World;19;419;29;308;;;x;Developing
+GLP;Guadeloupe;Latin America and the Caribbean;Americas;Caribbean;1;World;19;419;29;312;;;;Developing
+GTM;Guatemala;Latin America and the Caribbean;Americas;Central America;1;World;19;419;13;320;;;;Developing
+GUY;Guyana;Latin America and the Caribbean;Americas;South America;1;World;19;419;5;328;;;x;Developing
+HTI;Haiti;Latin America and the Caribbean;Americas;Caribbean;1;World;19;419;29;332;x;;x;Developing
+HND;Honduras;Latin America and the Caribbean;Americas;Central America;1;World;19;419;13;340;;;;Developing
+JAM;Jamaica;Latin America and the Caribbean;Americas;Caribbean;1;World;19;419;29;388;;;x;Developing
+MTQ;Martinique;Latin America and the Caribbean;Americas;Caribbean;1;World;19;419;29;474;;;;Developing
+MEX;Mexico;Latin America and the Caribbean;Americas;Central America;1;World;19;419;13;484;;;;Developing
+MSR;Montserrat;Latin America and the Caribbean;Americas;Caribbean;1;World;19;419;29;500;;;x;Developing
+NIC;Nicaragua;Latin America and the Caribbean;Americas;Central America;1;World;19;419;13;558;;;;Developing
+PAN;Panama;Latin America and the Caribbean;Americas;Central America;1;World;19;419;13;591;;;;Developing
+PRY;Paraguay;Latin America and the Caribbean;Americas;South America;1;World;19;419;5;600;;x;;Developing
+PER;Peru;Latin America and the Caribbean;Americas;South America;1;World;19;419;5;604;;;;Developing
+PRI;Puerto Rico;Latin America and the Caribbean;Americas;Caribbean;1;World;19;419;29;630;;;x;Developing
+BLM;Saint Barthélemy;Latin America and the Caribbean;Americas;Caribbean;1;World;19;419;29;652;;;;Developing
+KNA;Saint Kitts and Nevis;Latin America and the Caribbean;Americas;Caribbean;1;World;19;419;29;659;;;x;Developing
+LCA;Saint Lucia;Latin America and the Caribbean;Americas;Caribbean;1;World;19;419;29;662;;;x;Developing
+MAF;Saint Martin (French Part);Latin America and the Caribbean;Americas;Caribbean;1;World;19;419;29;663;;;;Developing
+VCT;Saint Vincent and the Grenadines;Latin America and the Caribbean;Americas;Caribbean;1;World;19;419;29;670;;;x;Developing
+SXM;Sint Maarten (Dutch part);Latin America and the Caribbean;Americas;Caribbean;1;World;19;419;29;534;;;x;Developing
+SGS;South Georgia and the South Sandwich Islands;Latin America and the Caribbean;Americas;South America;1;World;19;419;5;239;;;;Developing
+SUR;Suriname;Latin America and the Caribbean;Americas;South America;1;World;19;419;5;740;;;x;Developing
+TTO;Trinidad and Tobago;Latin America and the Caribbean;Americas;Caribbean;1;World;19;419;29;780;;;x;Developing
+TCA;Turks and Caicos Islands;Latin America and the Caribbean;Americas;Caribbean;1;World;19;419;29;796;;;;Developing
+VIR;United States Virgin Islands;Latin America and the Caribbean;Americas;Caribbean;1;World;19;419;29;850;;;x;Developing
+URY;Uruguay;Latin America and the Caribbean;Americas;South America;1;World;19;419;5;858;;;;Developing
+VEN;Venezuela (Bolivarian Republic of);Latin America and the Caribbean;Americas;South America;1;World;19;419;5;862;;;;Developing
+BMU;Bermuda;Northern America;Americas;;1;World;19;21;;60;;;;Developed
+CAN;Canada;Northern America;Americas;;1;World;19;21;;124;;;;Developed
+GRL;Greenland;Northern America;Americas;;1;World;19;21;;304;;;;Developed
+SPM;Saint Pierre and Miquelon;Northern America;Americas;;1;World;19;21;;666;;;;Developed
+USA;United States of America;Northern America;Americas;;1;World;19;21;;840;;;;Developed
+KAZ;Kazakhstan;Central Asia;Asia;;1;World;142;143;;398;;x;;Developing
+KGZ;Kyrgyzstan;Central Asia;Asia;;1;World;142;143;;417;;x;;Developing
+TJK;Tajikistan;Central Asia;Asia;;1;World;142;143;;762;;x;;Developing
+TKM;Turkmenistan;Central Asia;Asia;;1;World;142;143;;795;;x;;Developing
+UZB;Uzbekistan;Central Asia;Asia;;1;World;142;143;;860;;x;;Developing
+CHN;China;Eastern Asia;Asia;;1;World;142;30;;156;;;;Developing
+HKG;China, Hong Kong Special Administrative Region;Eastern Asia;Asia;;1;World;142;30;;344;;;;Developing
+MAC;China, Macao Special Administrative Region;Eastern Asia;Asia;;1;World;142;30;;446;;;;Developing
+PRK;Democratic People's Republic of Korea;Eastern Asia;Asia;;1;World;142;30;;408;;;;Developing
+JPN;Japan;Eastern Asia;Asia;;1;World;142;30;;392;;;;Developed
+MNG;Mongolia;Eastern Asia;Asia;;1;World;142;30;;496;;x;;Developing
+KOR;Republic of Korea;Eastern Asia;Asia;;1;World;142;30;;410;;;;Developing
+BRN;Brunei Darussalam;South-eastern Asia;Asia;;1;World;142;35;;96;;;;Developing
+KHM;Cambodia;South-eastern Asia;Asia;;1;World;142;35;;116;x;;;Developing
+IDN;Indonesia;South-eastern Asia;Asia;;1;World;142;35;;360;;;;Developing
+LAO;Lao People's Democratic Republic;South-eastern Asia;Asia;;1;World;142;35;;418;x;x;;Developing
+MYS;Malaysia;South-eastern Asia;Asia;;1;World;142;35;;458;;;;Developing
+MMR;Myanmar;South-eastern Asia;Asia;;1;World;142;35;;104;x;;;Developing
+PHL;Philippines;South-eastern Asia;Asia;;1;World;142;35;;608;;;;Developing
+SGP;Singapore;South-eastern Asia;Asia;;1;World;142;35;;702;;;x;Developing
+THA;Thailand;South-eastern Asia;Asia;;1;World;142;35;;764;;;;Developing
+TLS;Timor-Leste;South-eastern Asia;Asia;;1;World;142;35;;626;x;;x;Developing
+VNM;Viet Nam;South-eastern Asia;Asia;;1;World;142;35;;704;;;;Developing
+AFG;Afghanistan;Southern Asia;Asia;;1;World;142;34;;4;x;x;;Developing
+BGD;Bangladesh;Southern Asia;Asia;;1;World;142;34;;50;x;;;Developing
+BTN;Bhutan;Southern Asia;Asia;;1;World;142;34;;64;x;x;;Developing
+IND;India;Southern Asia;Asia;;1;World;142;34;;356;;;;Developing
+IRN;Iran (Islamic Republic of);Southern Asia;Asia;;1;World;142;34;;364;;;;Developing
+MDV;Maldives;Southern Asia;Asia;;1;World;142;34;;462;;;x;Developing
+NPL;Nepal;Southern Asia;Asia;;1;World;142;34;;524;x;x;;Developing
+PAK;Pakistan;Southern Asia;Asia;;1;World;142;34;;586;;;;Developing
+LKA;Sri Lanka;Southern Asia;Asia;;1;World;142;34;;144;;;;Developing
+ARM;Armenia;Western Asia;Asia;;1;World;142;145;;51;;x;;Developing
+AZE;Azerbaijan;Western Asia;Asia;;1;World;142;145;;31;;x;;Developing
+BHR;Bahrain;Western Asia;Asia;;1;World;142;145;;48;;;;Developing
+CYP;Cyprus;Western Asia;Asia;;1;World;142;145;;196;;;;Developed
+GEO;Georgia;Western Asia;Asia;;1;World;142;145;;268;;;;Developing
+IRQ;Iraq;Western Asia;Asia;;1;World;142;145;;368;;;;Developing
+ISR;Israel;Western Asia;Asia;;1;World;142;145;;376;;;;Developed
+JOR;Jordan;Western Asia;Asia;;1;World;142;145;;400;;;;Developing
+KWT;Kuwait;Western Asia;Asia;;1;World;142;145;;414;;;;Developing
+LBN;Lebanon;Western Asia;Asia;;1;World;142;145;;422;;;;Developing
+OMN;Oman;Western Asia;Asia;;1;World;142;145;;512;;;;Developing
+QAT;Qatar;Western Asia;Asia;;1;World;142;145;;634;;;;Developing
+SAU;Saudi Arabia;Western Asia;Asia;;1;World;142;145;;682;;;;Developing
+PSE;State of Palestine;Western Asia;Asia;;1;World;142;145;;275;;;;Developing
+SYR;Syrian Arab Republic;Western Asia;Asia;;1;World;142;145;;760;;;;Developing
+TUR;Turkey;Western Asia;Asia;;1;World;142;145;;792;;;;Developing
+ARE;United Arab Emirates;Western Asia;Asia;;1;World;142;145;;784;;;;Developing
+YEM;Yemen;Western Asia;Asia;;1;World;142;145;;887;x;;;Developing
+BLR;Belarus;Eastern Europe;Europe;;1;World;150;151;;112;;;;Developed
+BGR;Bulgaria;Eastern Europe;Europe;;1;World;150;151;;100;;;;Developed
+CZE;Czechia;Eastern Europe;Europe;;1;World;150;151;;203;;;;Developed
+HUN;Hungary;Eastern Europe;Europe;;1;World;150;151;;348;;;;Developed
+POL;Poland;Eastern Europe;Europe;;1;World;150;151;;616;;;;Developed
+MDA;Republic of Moldova;Eastern Europe;Europe;;1;World;150;151;;498;;x;;Developed
+ROU;Romania;Eastern Europe;Europe;;1;World;150;151;;642;;;;Developed
+RUS;Russian Federation;Eastern Europe;Europe;;1;World;150;151;;643;;;;Developed
+SVK;Slovakia;Eastern Europe;Europe;;1;World;150;151;;703;;;;Developed
+UKR;Ukraine;Eastern Europe;Europe;;1;World;150;151;;804;;;;Developed
+ALA;Åland Islands;Northern Europe;Europe;;1;World;150;154;;248;;;;Developed
+DNK;Denmark;Northern Europe;Europe;;1;World;150;154;;208;;;;Developed
+EST;Estonia;Northern Europe;Europe;;1;World;150;154;;233;;;;Developed
+FRO;Faroe Islands;Northern Europe;Europe;;1;World;150;154;;234;;;;Developed
+FIN;Finland;Northern Europe;Europe;;1;World;150;154;;246;;;;Developed
+GGY;Guernsey;Northern Europe;Europe;Channel Islands;1;World;150;154;830;831;;;;Developed
+ISL;Iceland;Northern Europe;Europe;;1;World;150;154;;352;;;;Developed
+IRL;Ireland;Northern Europe;Europe;;1;World;150;154;;372;;;;Developed
+IMN;Isle of Man;Northern Europe;Europe;;1;World;150;154;;833;;;;Developed
+JEY;Jersey;Northern Europe;Europe;Channel Islands;1;World;150;154;830;832;;;;Developed
+LVA;Latvia;Northern Europe;Europe;;1;World;150;154;;428;;;;Developed
+LTU;Lithuania;Northern Europe;Europe;;1;World;150;154;;440;;;;Developed
+NOR;Norway;Northern Europe;Europe;;1;World;150;154;;578;;;;Developed
+;Sark;Northern Europe;Europe;Channel Islands;1;World;150;154;830;680;;;;Developed
+SJM;Svalbard and Jan Mayen Islands;Northern Europe;Europe;;1;World;150;154;;744;;;;Developed
+SWE;Sweden;Northern Europe;Europe;;1;World;150;154;;752;;;;Developed
+GBR;United Kingdom of Great Britain and Northern Ireland;Northern Europe;Europe;;1;World;150;154;;826;;;;Developed
+ALB;Albania;Southern Europe;Europe;;1;World;150;39;;8;;;;Developed
+AND;Andorra;Southern Europe;Europe;;1;World;150;39;;20;;;;Developed
+BIH;Bosnia and Herzegovina;Southern Europe;Europe;;1;World;150;39;;70;;;;Developed
+HRV;Croatia;Southern Europe;Europe;;1;World;150;39;;191;;;;Developed
+GIB;Gibraltar;Southern Europe;Europe;;1;World;150;39;;292;;;;Developed
+GRC;Greece;Southern Europe;Europe;;1;World;150;39;;300;;;;Developed
+VAT;Holy See;Southern Europe;Europe;;1;World;150;39;;336;;;;Developed
+ITA;Italy;Southern Europe;Europe;;1;World;150;39;;380;;;;Developed
+MLT;Malta;Southern Europe;Europe;;1;World;150;39;;470;;;;Developed
+MNE;Montenegro;Southern Europe;Europe;;1;World;150;39;;499;;;;Developed
+PRT;Portugal;Southern Europe;Europe;;1;World;150;39;;620;;;;Developed
+SMR;San Marino;Southern Europe;Europe;;1;World;150;39;;674;;;;Developed
+SRB;Serbia;Southern Europe;Europe;;1;World;150;39;;688;;;;Developed
+SVN;Slovenia;Southern Europe;Europe;;1;World;150;39;;705;;;;Developed
+ESP;Spain;Southern Europe;Europe;;1;World;150;39;;724;;;;Developed
+MKD;The former Yugoslav Republic of Macedonia;Southern Europe;Europe;;1;World;150;39;;807;;x;;Developed
+AUT;Austria;Western Europe;Europe;;1;World;150;155;;40;;;;Developed
+BEL;Belgium;Western Europe;Europe;;1;World;150;155;;56;;;;Developed
+FRA;France;Western Europe;Europe;;1;World;150;155;;250;;;;Developed
+DEU;Germany;Western Europe;Europe;;1;World;150;155;;276;;;;Developed
+LIE;Liechtenstein;Western Europe;Europe;;1;World;150;155;;438;;;;Developed
+LUX;Luxembourg;Western Europe;Europe;;1;World;150;155;;442;;;;Developed
+MCO;Monaco;Western Europe;Europe;;1;World;150;155;;492;;;;Developed
+NLD;Netherlands;Western Europe;Europe;;1;World;150;155;;528;;;;Developed
+CHE;Switzerland;Western Europe;Europe;;1;World;150;155;;756;;;;Developed
+AUS;Australia;Australia and New Zealand;Oceania;;1;World;9;53;;36;;;;Developed
+CXR;Christmas Island;Australia and New Zealand;Oceania;;1;World;9;53;;162;;;;Developed
+CCK;Cocos (Keeling) Islands;Australia and New Zealand;Oceania;;1;World;9;53;;166;;;;Developed
+HMD;Heard Island and McDonald Islands;Australia and New Zealand;Oceania;;1;World;9;53;;334;;;;Developed
+NZL;New Zealand;Australia and New Zealand;Oceania;;1;World;9;53;;554;;;;Developed
+NFK;Norfolk Island;Australia and New Zealand;Oceania;;1;World;9;53;;574;;;;Developed
+FJI;Fiji;Melanesia;Oceania;;1;World;9;54;;242;;;x;Developing
+NCL;New Caledonia;Melanesia;Oceania;;1;World;9;54;;540;;;x;Developing
+PNG;Papua New Guinea;Melanesia;Oceania;;1;World;9;54;;598;;;x;Developing
+SLB;Solomon Islands;Melanesia;Oceania;;1;World;9;54;;90;x;;x;Developing
+VUT;Vanuatu;Melanesia;Oceania;;1;World;9;54;;548;x;;x;Developing
+GUM;Guam;Micronesia;Oceania;;1;World;9;57;;316;;;x;Developing
+KIR;Kiribati;Micronesia;Oceania;;1;World;9;57;;296;x;;x;Developing
+MHL;Marshall Islands;Micronesia;Oceania;;1;World;9;57;;584;;;x;Developing
+FSM;Micronesia (Federated States of);Micronesia;Oceania;;1;World;9;57;;583;;;x;Developing
+NRU;Nauru;Micronesia;Oceania;;1;World;9;57;;520;;;x;Developing
+MNP;Northern Mariana Islands;Micronesia;Oceania;;1;World;9;57;;580;;;x;Developing
+PLW;Palau;Micronesia;Oceania;;1;World;9;57;;585;;;x;Developing
+UMI;United States Minor Outlying Islands;Micronesia;Oceania;;1;World;9;57;;581;;;;Developing
+ASM;American Samoa;Polynesia;Oceania;;1;World;9;61;;16;;;x;Developing
+COK;Cook Islands;Polynesia;Oceania;;1;World;9;61;;184;;;x;Developing
+PYF;French Polynesia;Polynesia;Oceania;;1;World;9;61;;258;;;x;Developing
+NIU;Niue;Polynesia;Oceania;;1;World;9;61;;570;;;x;Developing
+PCN;Pitcairn;Polynesia;Oceania;;1;World;9;61;;612;;;;Developing
+WSM;Samoa;Polynesia;Oceania;;1;World;9;61;;882;;;x;Developing
+TKL;Tokelau;Polynesia;Oceania;;1;World;9;61;;772;;;;Developing
+TON;Tonga;Polynesia;Oceania;;1;World;9;61;;776;;;x;Developing
+TUV;Tuvalu;Polynesia;Oceania;;1;World;9;61;;798;x;;x;Developing
+WLF;Wallis and Futuna Islands;Polynesia;Oceania;;1;World;9;61;;876;;;;Developing
+TWN;Chinese Taipei;Eastern Asia;Asia;;;;;;;;;;;
+XKX;Kosovo;Eastern Europe;Europe;;;;;;;;;;;
+XCI;Channel Islands;Western Europe;Europe;;;;;;;;;;;
+XSA;Sark;Western Europe;Europe;;;;;;;;;;;
+ATA;Antarctica;;;;1;World;;;;10;;;;

@@ -1,0 +1,135 @@
+id;name;dataviz_type;direction;key_indicator;classif;area;level;final_list;note;source
+1;Access to water ;binary;1;0;Production;Skills & Knowledge;Organization;1;yes/no and includes not available;World Bank Statistical Capacity Indicator
+2;Accessible Micro Data Sets;continuous;1;0;Dissemination;Skills & Knowledge;Organization;1;;International Household Survey Network 
+3;Active Outreach to Users ;binary;1;0;Dissemination;Skills & Knowledge;Organization;1;yes/no;PARIS21 
+4;Advocacymaterial;binary;1;0;Dissemination;Skills & Knowledge;Organization;1;;
+5;Agricultural census;binary;1;0;Production;Skills & Knowledge;Organization;1;;
+6;Available Micro Data Sets ;continuous;1;0;Dissemination;Skills & Knowledge;Organization;1;;International Household Survey Network 
+7;Balance of payments manual in use;ordinal;1;0;Production;Skills & Knowledge;Organization;1;;
+8;Birth Data from Vital Registration ;binary;1;0;Production;Skills & Knowledge;Organization;1;yes/no and includes not available;United Nations Department of Economic and Social Affairs 
+9;Child immunization ;binary;1;0;Production;Skills & Knowledge;Organization;1;only 1 and includes not available, no 0's;World Bank Statistical Capacity Indicator
+10;Child malnutrition ;ordinal;1;0;Production;Skills & Knowledge;Organization;1;includes not available;World Bank Statistical Capacity Indicator
+11;Child mortality ;binary;1;0;Production;Skills & Knowledge;Organization;1;includes not available;World Bank Statistical Capacity Indicator
+12;Civil Registration and Vital Statistics ;binary;1;0;Production;Skills & Knowledge;Organization;1;yes/no and includes not available, redundant?;United Nations Statistics Division 
+13;Civil Society Organizations active in Statistics ;continuous;1;0;Valuation;Incentives;System;1;;UN ESANGO 
+14;Commitments to Statistics ;continuous;1;0;Investment;Resources;System;1;zeros??;PARIS21 
+15;Consumer price index base year;binary;1;0;Production;Skills & Knowledge;Organization;1;;
+16;Control of Corruption;continuous;1;0;Valuation;Resources;System;1;includes not available;World Bank Governance Indicator 
+17;CountryStat;binary;1;0;Dissemination;Skills & Knowledge;Organization;1;;
+18;CPI Base Year ;ordinal;1;0;Production;Skills & Knowledge;Organization;0;includes not available. What does this tell us that the world bank sci binary indicator doesn't?;World Bank Bulletin Board on Statistical Capacity 
+19;CRESS;binary;1;0;Planning;Politics and Power;System;0;only 8 countries have this?;
+20;CRVSCoverage;binary;1;0;Production;Skills & Knowledge;Organization;0;redundant?;
+21;DataDisseminationPolicy;binary;1;0;Dissemination;Management;System;1;define;
+22;DatapromotioneventsMOWuser;binary;1;0;Dissemination;Management;Organization;0;define;
+23;Details on Budget ;binary;1;0;Investment;Resources;System;1;yes/no, define;PARIS21 
+24;Details on Legislation ;binary;1;0;Planning;Resources;System;1;yes/no, define;PARIS21 
+25;Details on Organization ;binary;1;0;Planning;Resources;System;1;yes/no, define;PARIS21 
+26;DevInfoCountryInfoPortal;binary;1;0;Dissemination;Management;System;1;define, ARG and COD missing (is this common?);
+27;Downloadablereportsfromthewe;binary;1;0;Dissemination;Management;Organization;1;define;
+28;ExistenceofSectoralStatistica;binary;1;0;Planning;Resources;System;1;define, only 19 countries?;
+29;External debt reporting status ;binary;1;0;Planning;Resources;Organization;1;includes not available;World Bank Statistical Capacity Indicator
+30;Facebook;binary;1;0;Dissemination;Management;Organization;0;redundant with social media presence variable?;
+31;Fragile State ;binary;0;0;Planning;Resources;System;0;or for country page?;World Bank 
+32;GDDS Subscription ;binary;1;0;Production;Skills & Knowledge;Organization;1;yes/no;International Monetary Fund 
+33;GDDSSDDS;binary;1;0;Production;Skills & Knowledge;Organization;0;define, redundant?;
+34;GDP Base Year ;ordinal;1;0;Production;Skills & Knowledge;Organization;1;includes not available. What does this tell us? Is there a WB SCI binary? Should we make one similar?;International Monetary Fund 
+35;GDP per Capita;continuous;1;0;Planning;Resources;System;0;or for country page?;
+36;Gender equality in education ;ordinal;1;0;Production;Skills & Knowledge;Organization;1;includes not available.;World Bank Statistical Capacity Indicator
+37;Government Effectiveness ;continuous;1;0;Valuation;Politics and Power;System;1;includes not available.;World Bank Governance Indicator 
+38;Government finance accounting ;binary;1;0;Production;Resources;System;1;includes not available.;World Bank Statistical Capacity Indicator
+39;Governmental Statistical Capacity (Ibrahim);continuous;1;1;Valuation;Skills & Knowledge;System;1;;
+40;Health survey;ordinal;1;0;Production;Skills & Knowledge;Organization;1;;
+41;HIV/AIDS ;binary;1;0;Production;Skills & Knowledge;Organization;1;includes not available;World Bank Statistical Capacity Indicator
+42;IDA Eligibility ;binary;0;0;Planning;Resources;System;0;yes/no. or for country indicator page?;World Bank 
+43;IMF Reports on the Observance of Standards and Codes ;continuous;1;0;Valuation;Skills & Knowledge;System;1;define;International Monetary Fund 
+44;Import and export price indexes ;binary;1;0;Production;Resources;Organization;1;includes not available, define;World Bank Statistical Capacity Indicator
+45;Income Class ;ordinal;1;0;Production;Resources;Organization;0;multi-tier/categorical. or for country indicator page?;Organization for Economic Co-operation and Development 
+46;Income poverty ;ordinal;1;0;Production;Resources;Organization;1;includes not available, define;World Bank Statistical Capacity Indicator
+47;Industrial production index ;binary;1;0;Production;Resources;Organization;1;includes not available, define;World Bank Statistical Capacity Indicator
+48;ISI-recognized statistical society;binary;1;1;Planning;Resources;System;1;define;
+49;Landlocked Developing State ;binary;0;0;Planning;Resources;System;0;yes/no. or for country indicator page?;United Nations Office of the High Representative for the Least Developed Countries 
+50;Language Accessibility ;binary;1;0;Dissemination;Resources;Organization;1;yes/no;PARIS21 
+51;Latest Agricultural Census ;ordinal;1;0;Production;Skills & Knowledge;Organization;0;includes not available. What does this give us that the binary past-few-years thing doesn't?;World Bank Statistical Capacity Indicator
+52;Latest Household Survey;text;1;0;Production;Skills & Knowledge;Organization;0;includes not available. What does this give us that the binary past-few-years thing doesn't?;World Bank Statistical Capacity Indicator
+53;Latest Industrial Data ;ordinal;1;0;Production;Resources;Organization;0;includes not available. What does this give us that the binary past-few-years thing doesn't?;World Bank Statistical Capacity Indicator
+54;Latest Population Census ;ordinal;1;0;Production;Skills & Knowledge;Organization;0;includes not available. What does this give us that the binary past-few-years thing doesn't?;World Bank Statistical Capacity Indicator
+55;Latest Trade Data ;ordinal;1;0;Production;Resources;Organization;0;includes not available. What does this give us that the binary past-few-years thing doesn't?;World Bank Statistical Capacity Indicator
+56;Latest Water Withdrawal Data ;ordinal;1;0;Production;Resources;Organization;0;includes not available. What does this give us that the binary past-few-years thing doesn't?;World Bank Statistical Capacity Indicator
+57;Maternal health ;ordinal;1;0;Production;Skills & Knowledge;Organization;1;includes not available, define;World Bank Statistical Capacity Indicator
+58;Metadata available on Website ;binary;1;0;Dissemination;Resources;Organization;1;yes/no. includes not available;PARIS21 
+59;Methodology assessment of statistical capacity (scale 0 - 100);continuous;1;0;Valuation;Skills & Knowledge;Organization;1;;
+60;Micro Data ;binary;1;0;Dissemination;Resources;Organization;1;yes/no;International Household Survey Network 
+61;NADA;binary;1;1;Dissemination;Resources;System;1;deleted some redundant data;
+62;National accounts base year;binary;1;0;Production;Skills & Knowledge;Organization;1;;
+63;National Database/Data Portal;binary;1;0;Dissemination;Resources;System;1;;
+64;National immunization coverage ;binary;1;0;Production;Skills & Knowledge;Organization;1;includes not available;World Bank Statistical Capacity Indicator
+65;National Strategy for Development of Statistics;binary;1;0;Planning;Resources;System;1;;
+66;NationalDatabaseDataPortal;binary;1;0;Dissemination;Resources;System;1;define;
+67;NationalStatisticalCouncil;binary;1;0;Planning;Resources;System;1;define;
+68;NationalsupporttoStatistics;binary;1;0;Investment;Resources;System;1;define;
+69;Newsletter;binary;1;0;Dissemination;Management;Organization;1;is this useful? Can it be folded into some other indicator about dissemination?;
+70;NSDS existing ;ordinal;1;1;Planning;Resources;System;0;define category values, what does it give us that the other nsds existence variable doesn't?;PARIS21
+71;NSDS name ;text;1;0;Planning;Resources;System;0;includes not available. Or for country page?;PARIS21
+72;NSDS next ;ordinal;1;0;Planning;Management;System;0;too many not available? Out of date? Better to just stick with the nsds existence variable?;PARIS21
+73;NSDS time span existing ;ordinal;1;0;Planning;Resources;System;0;too many not available? Out of date? Better to just stick with the nsds existence variable?;PARIS21
+74;NSDS time span next ;ordinal;1;0;Planning;Management;System;0;too many not available? Out of date? Better to just stick with the nsds existence variable?;PARIS21
+75;NSDSGeneration2;binary;1;0;Planning;Management;System;1;;
+76;NSDSNationalStatisticalPlan;binary;1;0;Planning;Resources;System;1;define;
+77;NSO Website URL ;text;1;0;Planning;Resources;System;0;includes some not available. or for country indicator page?;PARIS21 
+78;ODINcoverage;continuous;1;0;Production;Skills & Knowledge;Organization;1;;
+79;ODINecon_coverage;continuous;1;0;Production;Skills & Knowledge;Organization;1;;
+80;ODINecon_openness;continuous;1;0;Production;Skills & Knowledge;Organization;1;;
+81;ODINecon_overall;continuous;1;0;Production;Skills & Knowledge;Organization;1;;
+82;ODINenviro_coverage;continuous;1;0;Production;Skills & Knowledge;Organization;1;;
+83;ODINenviro_openness;continuous;1;0;Production;Skills & Knowledge;Organization;1;;
+84;ODINenviro_overall;continuous;1;0;Production;Skills & Knowledge;Organization;1;;
+85;ODINopenness;continuous;1;0;Production;Skills & Knowledge;Organization;1;;
+86;ODINoverall;continuous;1;1;Production;Skills & Knowledge;Organization;1;;
+87;ODINsocial_coverage;continuous;1;0;Production;Skills & Knowledge;Organization;1;;
+88;ODINsocial_openness;continuous;1;0;Production;Skills & Knowledge;Organization;1;;
+89;ODINsocial_overall;continuous;1;0;Production;Skills & Knowledge;Organization;1;;
+90;Online Data Accessibility ;binary;1;0;Dissemination;Skills & Knowledge;Organization;1;yes/no;PARIS21 
+91;OpenGovernment;binary;1;0;Planning;Resources;System;1;what is this? Why different for 2017-18, from metabase to prioritization tool?;
+92;Per capita GDP growth ;ordinal;1;0;Planning;Skills & Knowledge;System;1;includes not available;World Bank Statistical Capacity Indicator
+93;Periodicity and timeliness assessment of statistical capacity (scale 0 - 100);continuous;1;0;Valuation;Skills & Knowledge;Organization;1;;
+94;Population;continuous;1;0;Planning;Resources;System;0;or for country page?;
+95;Population census;binary;1;0;Production;Skills & Knowledge;Organization;1;;
+96;Poverty survey;ordinal;1;0;Production;Skills & Knowledge;Organization;1;;
+97;Press Releases ;binary;1;0;Dissemination;Management;Organization;1;yes/no. fold into anotherr indicator of dissemination?;PARIS21 
+98;PressReleaseissuedatleastqu;binary;1;0;Dissemination;Management;Organization;1;fold into another dissemination variable?;
+99;Primary completion ;ordinal;1;0;Production;Resources;Organization;1;includes not available;World Bank Statistical Capacity Indicator
+100;Processing-friendly data format;binary;1;0;Dissemination;Skills & Knowledge;Organization;1;yes/no, define;PARIS21 
+101;PRSP /Nat Dev Plan time span ;ordinal;1;0;Planning;Resources;System;0;too many not available? Out of date? Better to just stick with the nsds existence variable?;PARIS21
+102;Regulatory Quality ;continuous;1;0;Planning;Politics and Power;System;1;includes not available, define;World Bank Governance Indicator 
+103;Rule of Law ;continuous;1;0;Planning;Politics and Power;System;1;includes not available, define;World Bank Governance Indicator 
+104;SDDS Subscription ;binary;1;1;Dissemination;Skills & Knowledge;Organization;1;yes/no, redundant?;International Monetary Fund 
+105;Share of foreign support dedicated to demographic and social statistics;continuous;1;0;Investment;Resources;System;1;;
+106;Share of foreign support dedicated to economic statistics;continuous;1;0;Investment;Resources;System;1;;
+107;Share of foreign support dedicated to environmental and multi-sectoral statistics;continuous;1;0;Investment;Resources;System;1;;
+108;Share of foreign support dedicated to general data collection, preservation and dissemination;continuous;1;0;Investment;Resources;System;1;;
+109;Small Island Developing State ;binary;0;0;Planning;Resources;System;0;or for country page?;United Nations 
+110;SocialMediaFacebookandorT;binary;1;0;Dissemination;Management;Organization;1;improves on/supersedes the pure facebook indicator;
+111;Source data assessment of statistical capacity (scale 0 - 100);continuous;1;0;Valuation;Skills & Knowledge;Organization;1;;
+112;Special Data Dissemination Standard;binary;1;0;Dissemination;Skills & Knowledge;Organization;1;;
+113;Statistical Capacity score (Overall average);continuous;1;1;Valuation;Skills & Knowledge;System;1;;
+114;Statistical Literacy Indicator;continuous;1;0;Valuation;Skills & Knowledge;System;0;includes many not available;PARIS21
+115;Statistical Literacy Indicator (level 1);continuous;1;1;Valuation;Skills & Knowledge;System;1;only 2016?;
+116;Statistical Literacy Indicator (level 2);continuous;1;1;Valuation;Skills & Knowledge;System;1;only 2016?;
+117;Statistical Literacy Indicator (level 3);continuous;1;1;Valuation;Skills & Knowledge;System;1;only 2016?;
+118;StatisticalLawAct;binary;1;0;Planning;Resources;System;0;define, all except PRK…;
+119;System of National Accounts ;ordinal;1;0;Production;Resources;Organization;0;includes not available. What does this give us that the binary past-few-years thing doesn't?;World Bank Statistical Capacity Indicator
+120;Top five donors by recipient country;binary;1;0;Investment;Resources;System;1;what is this? why is it a binary? Define;
+121;Total commitments (annual);continuous;1;1;Investment;Resources;System;1;some are blank/empty;
+122;Total commitments (ten years);continuous;1;0;Investment;Resources;System;0;includes some blank years? Would need to do an average…;
+123;Total commitments (three years);continuous;1;0;Investment;Resources;System;0;includes some blank years? Would need to do an average…;
+124;Twitter;binary;1;0;Dissemination;Management;Organization;0;redundant with social media presence variable?;
+125;UNESCO reporting ;binary;1;0;Dissemination;Management;Organization;1;includes not available. Define;World Bank Statistical Capacity Indicator
+126;Updateafter2009ComplytoUN;binary;1;0;Planning;Resources;System;1;define;
+127;Use of Statistics Indicator;continuous;1;1;Valuation;Skills & Knowledge;System;1;better for 2018 from press than 2017 from metabase;
+128;Useofregionaldataplatform;binary;1;0;Dissemination;Management;Organization;1;define;
+129;User Contact ;binary;1;0;Valuation;Politics and Power;Organization;1;yes/no. define;PARIS21 
+130;User Tailored Services ;binary;1;0;Valuation;Politics and Power;Organization;1;yes/no. define;PARIS21 
+131;Vital registration system coverage;binary;1;0;Production;Skills & Knowledge;Organization;1;;
+132;Website;binary;1;0;Dissemination;Management;Organization;1;somehow link this to the url?;
+133;Website Updates ;binary;1;0;Dissemination;Management;Organization;1;yes/no;PARIS21 
+134;WebsiteandSocialMediaUpdated;binary;1;0;Dissemination;Management;Organization;1;redundant with social media presence variable? Except that this about the activity, and not just the existence…;

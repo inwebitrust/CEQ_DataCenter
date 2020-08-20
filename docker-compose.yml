@@ -1,0 +1,36 @@
+version: "3"
+services:
+  project:
+    ports:
+      - "${PORT}:${PORT}"
+    restart: always
+    networks:
+      - traefik_network
+    logging:
+      options:
+        max-size: "10m"
+        max-file: "5"
+    image: "${REGISTRY_URL}/${REGISTRY_USER}/${PROJECT_NAME}:${TAG:-latest}"
+    labels:
+      - "traefik.enable=true"
+      - "traefik.providers.docker.network=traefik_network"
+      - "traefik.http.routers.${PROJECT_NAME}.rule=Host(${SERVICE_HOST})"
+      - "traefik.http.routers.${PROJECT_NAME}.entrypoints=http"
+      - "traefik.http.routers.${PROJECT_NAME}.middlewares=https_redirect@file"
+      - "traefik.http.routers.${PROJECT_NAME}_secure.rule=Host(${SERVICE_HOST})"
+      - "traefik.http.routers.${PROJECT_NAME}_secure.entrypoints=https"
+      - "traefik.http.routers.${PROJECT_NAME}_secure.middlewares=website_rules@file,${PROJECT_NAME}_secure,compress@file"
+      - "traefik.http.routers.${PROJECT_NAME}_secure.tls.certresolver=letsEncrypt"
+      - "traefik.http.routers.${PROJECT_NAME}_secure.tls.options=front@file"
+      - "traefik.http.services.${PROJECT_NAME}_secure.loadbalancer.server.port=${PORT}"
+      - "traefik.http.middlewares.${PROJECT_NAME}_secure.headers.contentsecuritypolicy= frame-ancestors *.wedodata.dev  *.wedodata.fr *.afd.fr; frame-src *.wedodata.dev *.wedodata.fr *.afd.fr; child-src *.wedodata.dev *.wedodata.fr *.afd.fr;"
+
+    environment:
+      - SERVICE_HOST
+      - PROJECT_NAME
+      - PORT
+      - REGISTRY_USER
+
+networks:
+  traefik_network:
+    external: true

@@ -1,0 +1,952 @@
+@import "~assets/scss/_variables.scss";
+@import "~assets/scss/_browsers.scss";
+
+@media screen and (max-width:1023px){
+	.ismobile{
+		display: inline-block !important;
+	}
+	.isdesktop{
+		display: none !important;
+	}
+
+	.page{
+		margin-top: 50px;
+		overflow: hidden;
+	}
+
+	body[data-masked="true"]{
+		#Comparison{
+			&:before{
+				content: "";
+				position: absolute;
+				left: 0px;
+				top: 0px;
+				width: 100%;
+				height: 100%;
+				z-index: 1000;
+				background: rgba(255,255,255,0.95);
+			}
+		}
+	}
+
+	.ceq_modalwrapper{
+		z-index: 100000000000 !important;
+		.ceq_modal{
+			width: 90% !important;
+		}
+	}
+
+	#MobileMenu{
+		position: fixed;
+		right: 0px;
+		top: 0px;
+		height: 100vh;
+		width: 50vw;
+		background: #fff;
+		z-index: 1000000;
+		min-width: 185px;
+		&:before{
+			content: "";
+			position: absolute;
+			right: 100%;
+			width: 50vw;
+			top: 0px;
+			height: 100%;
+			background: rgba(0,0,0,0.95);
+		}
+		.menu_wrapper{
+			position: absolute;
+			top: 100px;
+			left: 0px;
+			width: 100%;
+			color: $colorBlack;
+			.menu_closebt{
+				position: absolute;
+				right: 40px;
+				top: 0px;
+				outline: none;
+				&:before{
+					content: "";
+					position: absolute;
+					left: 100%;
+					@include transform(translate(0,-50%));
+					top: 50%;
+					background: url("/images/icons/icon-burger_menu_close.svg") no-repeat 0 0 ;
+					background-size: 100% 100%;
+					width: 32px;
+					height: 32px;
+				}
+			}
+			.menu_links{
+				margin-top: 40px;
+				.menu_link{
+					height: 50px;
+					display: block;
+					text-align: left;
+					text-decoration: none;
+					color: $colorBlack;
+					position: relative;
+					&:after{
+						position: absolute;
+						left: 0px;
+						top: 0px;
+						width: 4px;
+						height: 100%;
+						content: "";
+						display: none;
+					}
+					.link_txt{
+						position: absolute;
+						top: 50%;
+						left: 60px;
+						@include transform(translate(0,-50%));
+						width: 80px;
+						display: inline-block;
+						line-height: 16px;
+						font-size: 12px;
+					}
+
+					&[data-link="home"]{
+	                    &:after{
+	                        background-color: $colorCyan;
+	                    }
+	                }
+	                &[data-link="comparison"]{
+	                    &:after{
+	                        background-color: $colorCyan;
+	                    }
+	                }
+	                &[data-link="country"]{
+	                    &:after{
+	                        background-color: $colorGreen;
+	                    }
+	                }
+	                &[data-link="sustainable"]{
+	                    &:after{
+	                        background-color: $colorPurple;
+	                    }
+	                }
+	                &[data-link="thematic"]{
+	                    &:after{
+	                        background-color: $colorOrange2;
+	                    }
+	                }
+	                &[data-link="about"]{
+	                    &:after{
+	                        background-color: $colorGreen;
+	                    }
+	                }
+	                &.selected{
+	                    font-family: "dm_sansbold";
+	                    &:after{
+	                        display: block;
+	                    }
+	                }
+				}
+			}
+		}
+	}
+
+	#app .ceq_header{
+		height: 108px;
+		.header_mobilerow{
+			height: 54px;
+			width: 100%;
+			display: block;
+			position: relative;
+			padding: 0 20px;
+			.header_logo{
+				position: absolute;
+				left: 30px;
+				top: 50%;
+				@include transform(translate(0,-50%));
+				&:before, &:after{
+					display: none;
+				}
+			}
+			&[data-row="1"]{
+				background: $colorBlue;
+				.header_logo{
+					background:url("/images/logos/logo-ceq-institute-blue@2x.png") no-repeat 0 0;
+		            background-size: 100% 100%;
+		            width: 140px;
+		            height: 40px;
+				}
+			}
+			&[data-row="2"]{
+				.header_logo{
+					background: url("/images/logos/logo-ceq-datacenter.svg") no-repeat 0px 0;
+	                width: 97px;
+	                height: 31px;
+	                background-size: 100% 100%;
+				}
+			}
+			.header_menubt{
+				position: absolute;
+				top: 50%;
+				@include transform(translate(0,-50%));
+				right: 40px;
+				outline: none;
+				&:before{
+					content: "";
+					position: absolute;
+					left: 100%;
+					@include transform(translate(0,-50%));
+					top: 50%;
+					background: url("/images/icons/icon-burger_menu_open.svg") no-repeat 0 0 ;
+					background-size: 100% 100%;
+					width: 32px;
+					height: 32px;
+				}
+			}
+		}
+	}
+
+	.ceq_header .header_wrapper{
+		width: 100% !important;
+		.header_menu{
+			display: none;
+		}
+	}
+
+	#app .ceq_footer{
+		margin-top: 0px;
+		.footer_wrapper{
+			width: 100%;
+			.footer_row{
+				padding: 0px;
+				height: auto !important;
+				.row_col{
+					width: 100%;
+				}
+				&.padded{
+					padding: 10px 0;
+					.row_col{
+						height: auto;
+					}
+				}
+				&.wdd{
+					border:0px solid;
+					margin-top: 10px;
+				}
+				.row_col{
+					height: 36px;
+					&.last{
+						height: 30px;
+					}
+				}
+			}
+		}
+	}
+
+	.page .page_wrapper{
+		width: 100%;
+	}
+
+	#Home{
+		.page .page_wrapper{
+			width: 800px;
+		}
+
+		.page_home .home_title{
+			font-size: 26px;
+		}
+
+		.page_home .home_subtitle{
+			font-size: 13px;
+			line-height: 16px;
+		}
+
+		.page_home .home_blocks .home_block{
+			width: 312px;
+			height: 192px;
+			margin: 5px;
+		}
+
+		.page_home .home_blocks .home_block[data-block="comparison"]:before{
+			right:-40px;
+			top: -40px;
+		}
+
+		.page_home .home_blocks .home_block[data-block="country"]:before{
+			top: 90px;
+		}
+
+		.page_home .home_blocks .home_block[data-block="sustainable"]:before{
+			left: auto;
+			right: -40px;
+			top: -40px;
+		}
+
+		.page_home .home_blocks .home_block .block_text .block_title{
+			font-size: 26px;
+			line-height: 24px;
+		}
+
+		.page_home .home_blocks .home_block .block_text .block_subtitle{
+			font-size: 14px;
+			line-height: 16px;
+			margin-top: 10px;
+		}
+
+		.page_home .home_dlblock{
+			width: 312px;
+			height: 192px;
+			margin: 5px;
+			&:before{
+				top: 190px;
+			}
+			.dlblock_text{
+				top: 100px;
+				left: 0px;
+				width: 100%;
+				padding: 0 30px;
+				font-size: 26px;
+				line-height: 26px;
+				.smaller{
+					line-height: 16px;
+					display: inline-block;
+					font-size: 14px;
+					margin-top: 10px;
+					width: 80%;
+				}
+				.block_dlbt{
+					position: absolute;
+					right: 30px;
+					bottom: 0px;
+					margin: 0px;
+				}
+			}
+		}
+
+		.page_home .home_thematic .thematic_title{
+			font-size: 26px;
+		}
+
+		.page_home .home_thematic .thematic_item{
+			width: 310px;
+			margin: 20px 20px 0px;
+			.item_pic{
+				width: 280px;
+				height: 160px;
+				img{
+					height: auto;
+					width: 100%;
+				}
+			}
+			.item_text{
+				position: relative;
+				left: 0px;
+				@include transform(translate(0,0));
+				top: 0;
+				margin-top: 20px;
+				width: 100%;
+				.text_title{
+					font-size: 24px;
+					line-height: 28px;
+				}
+				.text_p{
+					font-size: 13px;
+					line-height: 16px;
+					width: auto;
+				}
+			}
+		}
+	}
+
+	#Country{
+		#CountrySelector{
+			padding: 0 40px 0 20px;
+		}
+
+		.selector_sidebar{
+			width: 100%;
+		}
+
+		.selector_sidebar .sidebar_searchblock .searchblock_inputblock #CountriesSearchInput{
+			width: 100%;
+		}
+
+		.selector_sidebar .sidebar_searchblock .searchblock_inputblock .input_icon{
+			left: auto;
+			right: 10px;
+		}
+
+		.selector_sidebar .sidebar_items .items_group{
+			width: 100%;
+		}
+
+		.selector_map{
+			display: none;
+		}
+
+		.page .page_wrapper{
+			padding: 0 0 0 20px;
+		}
+
+		.country_chartblock{
+			border-radius: 0px;
+			padding: 60px 30px 20px;
+			.chartblock_head{
+				text-align: left;
+				padding-left: 10px;
+				.head_infotxt{
+					height: 40px;
+					margin-right: 5px;
+				}
+				.head_toggler{
+					margin-right: 10px;
+				}
+				.selectbox_combobox{
+					width: 160px !important;
+					margin-right: 10px;
+					.v-input__slot{
+						padding: 0 6px !important;
+					}
+				}
+				.selectbox_combobox_poverty{
+					width: 50px !important;
+					.v-input__slot{
+						padding: 0 4px !important;
+					}
+					.v-input__append-inner{
+						left: -4px !important;
+					}
+				}
+			}
+		}
+
+		.country_chartblock .chartblock_subblock[data-display="doublecols"] .subblock_text{
+			width: 100%;
+		}
+
+		.country_chartblock .chartblock_subblock[data-display="doublecols"] .subblock_chartwrapper{
+			width: 100%;
+			margin-left: 0px;
+			height: auto;
+			.barchart_wrapper{
+				margin-top: 40px;
+			}
+		}
+
+		.page_country #CountryProfile .profile_idcard .idcard_mainfigures .mainfigure{
+			width: 100%;
+			font-size: 14px;
+			&[data-mainfigure="inc"]{
+				margin-top: 10px;
+			}
+		}
+
+		.country_chartblock .chartblock_subblock .subblock_chartwrapper .timeseriesbubbles_selectbox{
+			position: absolute;
+			left: 0px;
+			top: -10px;
+		}
+
+		.timeseriesbubbles_wrapper{
+			margin-top: 40px;
+		}
+
+		.chartblock_subblock[data-subblock="poorest_decile"]{
+			.timeseriesbubbles_wrapper{
+				margin-top: 0px;
+			}
+		}
+
+		.barchart_wrapper .barchart_tooltip{
+			height: auto;
+			line-height: 14px;
+			padding: 4px 8px 4px 14px;
+			position: absolute;
+		}
+
+		.barchart_wrapper .highcharts_container{
+			margin-top: 0px;
+			position: relative;
+			top: 10px;
+		}
+	}
+
+	#Comparison{
+		overflow: hidden;
+		.page_wrapper{
+			padding: 0 20px;
+		}
+		.selector_map{
+			display: none;
+		}
+		.selector_sidebar{
+			width: 100%;
+		}
+		.selector_sidebar .sidebar_searchblock .searchblock_inputblock #CountriesSearchInput{
+			width: 100%;
+		}
+		.selector_sidebar .sidebar_searchblock .searchblock_inputblock #IndicatorSearchInput{
+			width: 100%;
+		}
+		.selector_sidebar .sidebar_searchblock .searchblock_inputblock .input_icon{
+			left: auto;
+			right: 10px;
+		}
+		.selector_sidebar .sidebar_items .items_selectall{
+			width: 100%;
+		}
+		.selector_sidebar .sidebar_items .items_group{
+			width: 100%;
+		}
+
+
+		#ComparisonSelector{
+			margin-bottom: 80px;
+			.selector_inner{
+				overflow: auto;
+				padding: 0px;
+			}
+			.selector_menu .menu_item{
+				font-size: 12px;
+			}
+		}
+
+		#ComparisonSelector .selector_bucket{
+			position: absolute;
+			left: -20px;
+			bottom: -80px;
+			width: 100vw;
+			margin-top: 20px;
+			height: 60px;
+			padding: 10px 40px;
+			z-index: 100000;
+			.bucket_mobile{
+				width: 100%;
+				margin-bottom: 20px;
+			}
+			&.expanded{
+				height: 400px;
+				overflow: auto;
+				.bucket_countrieswrapper, .bucket_indicatorwrapper{
+					display: block;
+				}
+			}
+
+			.bucket_countrieswrapper{
+				width: 100%;
+				display: none;
+			}
+			.bucket_indicatorwrapper{
+				width: 100%;
+				margin: 40px 0 40px 0;
+				display: none;
+
+			}
+		}
+
+		.page_comparison #ComparisonSelectorWrapper .selector_head{
+			font-size: 18px;
+			line-height: 20px;
+			font-family: "dm_sansbold";
+			text-align: center;
+		}
+
+		#ComparisonSelector #ViewChartBt{
+			border-radius: 20px 0 0 20px;
+			width: 160px;
+			right: -20px;
+			top: auto !important;
+			left: auto !important;
+			margin: 0px !important;
+			position: absolute;
+			bottom: -55px;
+			@include transform(translate(0,0));
+			&[data-expanded="expanded"]{
+				bottom: 285px;
+				z-index: 1000000000;
+			}
+		}
+
+		#IndicatorSelector{
+			padding: 30px;
+			height: auto;
+			.selector_sidebar{
+				padding: 0px;
+				.sidebar_items{
+					max-height: auto;
+					.items_theme{
+						width: 100%;
+					}
+				}
+			}
+			.selectbox_combobox{
+				width: 100%;
+				background: $colorBlue;
+				margin-top: 16px;
+				height: 32px;
+				.v-input__control{
+					.v-input__slot{
+						background: $colorCyan !important;
+						.v-select__slot{
+			                .v-select__selections{
+			                    .item_wrapper{
+			                        .item_text{
+			                            font-size: 10px;
+			                            font-family: "dm_sansbold";
+			                            color: $colorBlack;
+			                        }
+			                    }
+			                }
+			            }
+					}
+				}
+			}
+		}
+
+		#IndicatorSelector{
+			.treelist_backbt{
+				position: absolute;
+				left: 0px;
+				top: -16px;
+				width: auto;
+				height: 32px;
+				cursor: pointer;
+				outline: none;
+				text-align: left;
+				font-size: 11px;
+				font-family: "dm_sansbold";
+				&:before{
+					content: "";
+					position: absolute;
+					right: 100%;
+					top: 50%;
+					@include transform(translate(0,-50%));
+					width: 32px;
+					height: 32px;
+					background: url("/images/icons/icon-chevron_left.svg") no-repeat 0 0;
+					background-size: 100% 100%;
+				}
+			}
+			.selector_content{
+				width: 100%;
+				margin-top: 26px;
+				padding: 0px;
+				margin-bottom: 20px;
+				position: relative;
+				.content_arian{
+					display: none;
+				}
+				.content_treelist{
+					overflow: auto !important;
+				}
+			}
+		}
+
+		.page_comparison .page_head .head_wrapper{
+			width: 100%;
+			padding: 20px;
+			.head_indicatorcard{
+				width: auto;
+			}
+		}
+
+		.page_comparison .page_head .head_wrapper #ComparisonBackBt{
+			display: none;
+		}
+
+		.page_comparison #ComparisonData .page_highlighter{
+			width: 100vw;
+			height: 80px;
+			box-shadow: 0px -10px 20px 4px rgba(0,0,0,0.3);
+			position: relative;
+			padding-left: 150px;
+			left: -20px;
+			padding-top: 10px;
+
+			.highlighter_inputblock #CountryHighlighterBt{
+				width: 200px;
+			}
+			.highlighter_inputblock .input_icon{
+				left: 170px;
+			}
+
+			#ComparisonBackBt{
+				width: 130px;
+                height: 40px;
+                background: $colorBlack;
+                color: #fff;
+                text-align: center;
+                font-size: 12px;
+                text-transform: uppercase;
+                position: absolute;
+                border-radius: 0 20px 20px 0;
+                left: 0px;
+                padding: 4px 24px 4px 20px;
+                top: 50%;
+                @include transform(translate(0, -50%));
+                display: block;
+                line-height: 16px;
+                text-decoration: none;
+                font-family: "dm_sansbold";
+                &:before{
+                    content: "";
+                    position: absolute;
+                    left: 0px;
+                    top: 50%;
+                    @include transform(translate(0,-50%));
+                    background: url("/images/icons/icon-chevron_left-white.svg") no-repeat 0 0;
+                    background-size: 100% 100%;
+                    width: 32px;
+                    height: 32px;
+                }
+                &:after{
+                    content: "";
+                    position: absolute;
+                    right: 5px;
+                    top: 50%;
+                    @include transform(translate(0,-50%));
+                    background: url("/images/icons/icon-change_selection-cyan.svg") no-repeat 0 0;
+                    background-size: 100% 100%;
+                    width: 32px;
+                    height: 32px;
+                }
+            }
+		}
+
+		.page_comparison .comparison_options{
+			margin-top: 0px;
+		}
+	}
+
+	#Thematic{
+		.page_thematic{
+			padding: 20px 0 20px;
+			&[data-articledisplayed="true"]{
+				padding: 80px 0 20px;
+			}
+		}
+		.page_thematic .thematic_content .content_item{
+			height: auto;
+		}
+
+		.page_thematic .page_wrapper{
+			padding: 40px 20px !important;
+		}
+
+		.page_thematic .thematic_content .content_item .item_text{
+			margin: 0;
+			width: 100%;
+			margin-top: 20px;
+			.text_wrapper .text_title{
+				font-size: 24px;
+				line-height: 26px;
+			}
+		}
+
+		.page_thematic .thematic_content .content_item .item_text .text_wrapper{
+			position: relative;
+			@include transform(translate(0,0));
+			top: 0%;
+		}
+
+		.page_thematic .thematic_content .content_item .item_pic{
+			height: 200px;
+			width: 100%;
+		}
+
+		.page_thematic .page_wrapper .article_content{
+			width: 100%;
+		}
+
+		.page_thematic .page_wrapper .article_image img{
+			height: 100%;
+			width: auto;
+		}
+
+		.page_thematic .page_wrapper .article_gobackbt{
+			top: 125px;
+			left: 0px;
+			@include transform(translate(0,0));
+			background: $colorBlack;
+			font-size: 12px;
+			line-height: 14px;
+			border-radius: 0 20px 20px 0;
+			width: 100px;
+			padding-left: 20px;
+			font-family: "dm_sansbold";
+			border: 0px solid;
+			position: fixed;
+			&:before{
+				content: "";
+				position: absolute;
+				left: 0px;
+				top: 50%;
+				@include transform(translate(0, -50%));
+				background: url("/images/icons/icon-chevron_left-white.svg") no-repeat 0 0;
+				background-size: 100% 100%;
+				width: 32px;
+				height: 32px;
+			}
+		}
+	}
+
+	#Sustainable{
+		.page_sustainable .page_wrapper{
+			padding: 0 0 0 20px;
+		}
+		.page_sustainable .sustainable_content .sustainable_image{
+			width: 100%;
+		}
+		.sustainable_title{
+			text-transform: uppercase;
+			font-size: 20px;
+			line-height: 26px;
+		}
+		.sustainable_content{
+			border-radius: 20px 0 0 20px;
+			.sustainable_image{
+				display: none;
+			}
+		}
+	}
+	.page_sustainable .sustainable_content{
+		border-radius: 0px;
+	}
+}
+
+@media screen and (max-width:640px){
+
+	.country_chartblock_dlblock{
+		display: none;
+	}
+
+	.page .page_wrapper{
+		width: 100% !important;
+		padding: 0 20px;
+	}
+
+	.ceq_footer{
+		height: auto !important;
+	}
+
+	.ceq_footer .footer_wrapper{
+		width: 100% !important;
+		padding: 0 20px;
+		padding-bottom: 20px;
+	}
+
+	.ceq_footer .footer_col{
+		width: 100% !important;
+		margin: 0 !important;
+		margin-top: 20px !important;
+	}
+
+	.ceq_footer .footer_wrapper .footer_wddlink{
+		position: relative !important;
+		left: 0px;
+		top: 0px;
+	}
+
+	#Home{
+		.page_home .home_dlblock{
+			width: 312px;
+			height: 192px;
+			overflow: hidden;
+			margin-top: 10px;
+			
+		}
+
+		.page_home .home_title{
+			font-size: 26px;
+			line-height:32px;
+		}
+
+		.page_home .home_subtitle{
+			width: 100%;
+			font-size: 13px;
+			line-height: 18px;
+		}
+
+		.page_home .home_thematic .thematic_item .item_pic{
+			width: 100%;
+			display: block;
+		}
+
+		.page_home .home_thematic .thematic_item .item_text{
+			display: block;
+			width: 100%;
+			position: relative;
+			@include transform(translate(0,0));
+			left: 0px;
+			.text_p{
+				width: 100%;
+			}
+		}
+
+		.page_home .home_blocks{
+			margin-top: 10px;
+		}
+
+		.page_home .home_blocks .home_block{
+			width: 312px;
+			height: 192px;
+			margin-top: 10px;
+		}
+
+		.page_home .home_thematic{
+			margin-top: 50px;
+		}
+
+		.page_home .home_thematic .thematic_item{
+			text-decoration: none;
+			.item_text{
+				padding: 20px;
+				.text_title{
+					font-size: 24px;
+					line-height: 26px;
+					text-decoration: none;
+				}
+				.text_p{
+					font-size: 13px;
+					line-height: 18px;
+				}
+			}
+		}
+
+		.page_home .home_thematic .thematic_title{
+			font-size: 26px;
+			line-height: 32px;
+		}
+	}
+
+	#Comparison{
+		#ComparisonSelector .selector_menu{
+			width: 100%;
+		}
+		#ComparisonSelector .selector_menu .menu_item{
+			width: 50%;
+		}
+		#ComparisonSelector .selector_menu .menu_item[data-item="indicator"]{
+			left: 0px;
+		}
+
+		.page_comparison #ComparisonData .page_chart[data-chart="barchart"]{
+			height: 600px;
+			z-index: 1000000;
+		}
+		.barchart_wrapper .barchart_tooltip{
+			position: fixed;
+			left: 50%;
+			top: auto;
+			bottom: 20px;
+			@include transform(translate(-50%, 0));
+			max-width: 95%;
+			font-size: 11px;
+			height: auto;
+			text-align: center;
+			white-space: nowrap;
+			&[data-missing="true"]{
+				line-height: 14px;
+				padding: 4px 10px;
+				white-space: normal;
+				width: 95%;
+			}
+		}
+	}
+}

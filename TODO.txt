@@ -1,0 +1,8 @@
+MAP
+	-> logique zoom
+
+
+EXPORTS
+	-> dynmaique titres exports jpg
+	-> exports xls
+
