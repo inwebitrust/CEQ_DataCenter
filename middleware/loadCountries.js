@@ -21,16 +21,16 @@ export default async function ({ store }) {
       console.log('Une erreur est survenue', err)
     })
 
-    //Exemple pour csv
+    //POUR BORIS : Exemple recupération de données csv
     /*
       let projects = await axios.get(url + '/countries.csv')
       .then(response => {
-        var allProjets = []
+        var allCountries = []
         var tmpArray = csvToArray(response.data)
         _.each(tmpArray, function (row, index) {
-          allProjets.push(row)
+          allCountries.push(row)
         })
-        store.commit('database/loadCountries', allProjets)
+        store.commit('database/loadCountries', allCountries)
     })
     return true
     */
@@ -38,6 +38,7 @@ export default async function ({ store }) {
   return true
 }
 
+//POUR BORIS : Fonction qui transforme le csv en tableau JS
 /*
 function csvToArray (csvString) {
   // The array we're going to build
